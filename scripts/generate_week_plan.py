@@ -26,7 +26,7 @@ PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT_DIR = os.path.join(PROJECT_DIR, "content")
 PLANS_DIR = os.path.join(CONTENT_DIR, "week_plans")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from make_caption import TEMPLATES, FOOTER  # noqa: E402
+from make_caption import build_caption  # noqa: E402
 
 WEEKDAY_NAMES = ["segunda", "terca", "quarta", "quinta", "sexta", "sabado", "domingo"]
 
@@ -99,7 +99,7 @@ def main():
                 "folder": reel_pick["folder"],
                 "drive_folder_id": reel_pick["drive_folder_id"],
             }],
-            "caption_text": random.choice(TEMPLATES["reel"]) + FOOTER,
+            "caption_text": build_caption("reel", "sexta"),
         })
     else:
         feed_picks = pick_unused(feed_data, 5)
@@ -108,7 +108,7 @@ def main():
             "weekday": "sexta",
             "slot": "feed",
             "items": [{"file": p["file"], "folder": p["folder"]} for p in feed_picks],
-            "caption_text": random.choice(TEMPLATES["feed"]) + FOOTER,
+            "caption_text": build_caption("feed", "sexta"),
         })
 
     posts.sort(key=lambda p: (p["date"], p["slot"] != "story"))
