@@ -173,8 +173,8 @@
     {
       "file": "35.jpg",
       "type": "image",
-      "used": true,
-      "used_at": "2026-08-05T13:49:49"
+      "used": false,
+      "used_at": null
     },
     {
       "file": "36.jpg",
@@ -227,8 +227,8 @@
     {
       "file": "43.jpg",
       "type": "image",
-      "used": true,
-      "used_at": "2026-08-05T13:49:49"
+      "used": false,
+      "used_at": null
     },
     {
       "file": "44.jpg",

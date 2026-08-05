@@ -43,7 +43,7 @@ PLANS_DIR = os.path.join(PROJECT_DIR, "content", "week_plans")
 
 # weekday(): Monday=0 ... Sunday=6
 SCHEDULE = [
-    {"slot": "story", "weekdays": {0, 1, 2, 3, 4, 5, 6}, "hour": 19, "minute": 30},
+    {"slot": "story", "weekdays": {0, 1, 2, 3, 4}, "hour": 19, "minute": 30},  # Mon-Fri only, buffet is closed weekends
     {"slot": "weekly", "weekdays": {4}, "hour": 11, "minute": 0},
 ]
 

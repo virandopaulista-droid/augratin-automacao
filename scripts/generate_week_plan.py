@@ -7,7 +7,10 @@ automation; content is never picked live at posting time).
 
 Picks (from the manifests in content/, marking each pick "used" there so
 the same item doesn't repeat until its pool cycles through):
-  - 1 story per day, Mon-Sun (augratin_stories_manifest.json)
+  - 1 story per day, Mon-Fri ONLY (augratin_stories_manifest.json) -- the
+    buffet only operates Monday to Friday (Rob, 2026-08-05), so there is
+    nothing to post about on Sat/Sun, unlike GM Hamburgueria which posts
+    every day.
   - 1 weekly feed post, Friday -- EITHER a reel OR a carousel of 5 photos,
     never both in the same week (augratin_reels_manifest.json /
     augratin_feed_manifest.json), chosen at random each week.
@@ -75,7 +78,7 @@ def main():
     feed_data, feed_path = load_manifest("augratin_feed_manifest.json")
 
     posts = []
-    for i in range(7):
+    for i in range(5):  # Mon-Fri only -- buffet is closed Sat/Sun
         day = monday + datetime.timedelta(days=i)
         pick = pick_unused(stories_data, 1)[0]
         posts.append({
@@ -86,6 +89,14 @@ def main():
         })
 
     # One weekly feed post -- reel OR carousel, never both the same week.
+    # Caption deliberately passes weekday=None (generic copy, no dish name)
+    # even though the weekly slot always lands on Friday (salmao e rabada
+    # day) -- the manifest photos/videos are NOT tagged by which dish they
+    # show, so a random pick almost never actually depicts that day's
+    # special (confirmed 2026-08-05: a Friday carousel picked photos of the
+    # dining room, rice, feijoada, pudim and raw steak -- none of it
+    # salmon). Only use build_caption(kind, "sexta") for a specific post
+    # after visually confirming its actual items show that day's dish.
     friday = monday + datetime.timedelta(days=4)
     weekly_kind = random.choice(["reel", "feed"])
     if weekly_kind == "reel":
@@ -99,7 +110,7 @@ def main():
                 "folder": reel_pick["folder"],
                 "drive_folder_id": reel_pick["drive_folder_id"],
             }],
-            "caption_text": build_caption("reel", "sexta"),
+            "caption_text": build_caption("reel", None),
         })
     else:
         feed_picks = pick_unused(feed_data, 5)
@@ -108,7 +119,7 @@ def main():
             "weekday": "sexta",
             "slot": "feed",
             "items": [{"file": p["file"], "folder": p["folder"]} for p in feed_picks],
-            "caption_text": build_caption("feed", "sexta"),
+            "caption_text": build_caption("feed", None),
         })
 
     posts.sort(key=lambda p: (p["date"], p["slot"] != "story"))
