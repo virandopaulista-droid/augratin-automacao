@@ -9,7 +9,7 @@ still "pending_approval", the poller refuses to post and just warns -- same
 review-before-publish model as Bernardino's/GM Hamburgueria's automation.
 
 Schedule (adjust here if Rob wants different days/times):
-  Every day   19:30 -> 1 story (image or video, from Stories Iasmim pool)
+  Mon-Fri     12:00 -> 1 story (image or video, from Stories Iasmim pool)
   Friday      11:00 -> weekly feed slot -- EITHER a reel OR a carousel,
                         whichever generate_week_plan.py picked for that week
                         (never both in the same week).
@@ -43,7 +43,7 @@ PLANS_DIR = os.path.join(PROJECT_DIR, "content", "week_plans")
 
 # weekday(): Monday=0 ... Sunday=6
 SCHEDULE = [
-    {"slot": "story", "weekdays": {0, 1, 2, 3, 4}, "hour": 19, "minute": 30},  # Mon-Fri only, buffet is closed weekends
+    {"slot": "story", "weekdays": {0, 1, 2, 3, 4}, "hour": 12, "minute": 0},  # Mon-Fri only, buffet is closed weekends
     {"slot": "weekly", "weekdays": {4}, "hour": 11, "minute": 0},
 ]
 

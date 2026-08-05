@@ -11,7 +11,7 @@ Publica automaticamente no Facebook e Instagram da Au Gratin, direto de mídia j
 
 ## Cronograma
 
-- **Story**: todos os dias, 19h30 — 1 item (foto ou vídeo) de `Stories Iasmim`.
+- **Story**: segunda a sexta, 12h00 (buffet fechado no fim de semana) — 1 item (foto ou vídeo) de `Stories Iasmim`.
 - **Post semanal**: sexta-feira, 11h00 — OU um carrossel de 5 fotos (`Fotos - Tratadas/2026/*`) OU um reel (`Vídeos tratados/*`), decidido no momento de gerar o cronograma da semana.
 
 Ajuste dias/horários em `SCHEDULE` no topo de `scripts/poller.py`.

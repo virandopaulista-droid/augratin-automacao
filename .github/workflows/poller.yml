@@ -2,14 +2,15 @@ name: Poller (stories/feed/reels)
 
 on:
   schedule:
-    # Every 15 min, 21-23 + 00 UTC (18:00-21:59 America/Sao_Paulo, no DST),
-    # Mon-Sun. Covers the daily 19:30 story slot. The Friday 11:00 weekly
-    # slot needs its own separate window below (mornings). GitHub's cron has
-    # proven unreliable about firing at the exact configured time on the
-    # sibling Bernardino/TopTop/GM automations, so this is wide + frequent on
-    # purpose -- poller.py does catch-up matching (fires on whatever tick
-    # lands after a scheduled time, same day).
-    - cron: "*/15 21,22,23,0 * * *"
+    # Every 15 min, 15-17 UTC (12:00-14:59 America/Sao_Paulo, no DST),
+    # Mon-Fri. Covers the daily 12:00 story slot (buffet is closed
+    # weekends). The Friday 11:00 weekly slot needs its own separate window
+    # below (mornings). GitHub's cron has proven unreliable about firing at
+    # the exact configured time on the sibling Bernardino/TopTop/GM
+    # automations, so this is wide + frequent on purpose -- poller.py does
+    # catch-up matching (fires on whatever tick lands after a scheduled
+    # time, same day).
+    - cron: "*/15 15,16,17 * * 1-5"
     # Friday morning window for the weekly reel/feed slot (11:00 BRT = 14:00 UTC).
     - cron: "*/15 13,14,15 * * 5"
   workflow_dispatch:
