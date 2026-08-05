@@ -33,6 +33,25 @@ from make_caption import build_caption  # noqa: E402
 
 WEEKDAY_NAMES = ["segunda", "terca", "quarta", "quinta", "sexta", "sabado", "domingo"]
 
+# Which dish_tags (from the manifests' visual classification, see
+# augratin_feed_manifest.json / augratin_reels_manifest.json) confirm that
+# weekday's special dish. Mirrors make_caption.WEEKDAY_SPECIALS -- a weekday
+# is only passed to build_caption() if at least one picked item's dish_tags
+# intersects this set; otherwise the caption stays generic (no dish claim).
+WEEKDAY_DISH_TAGS = {
+    "quarta": {"feijoada"},
+    "quinta": {"massas", "sushi", "costela_no_bafo"},
+    "sexta": {"salmao", "rabada"},
+}
+
+
+def items_match_weekday(picks, weekday):
+    """True if any picked manifest entry's dish_tags confirms weekday's special."""
+    wanted = WEEKDAY_DISH_TAGS.get(weekday)
+    if not wanted:
+        return False
+    return any(wanted & set(p.get("dish_tags") or []) for p in picks)
+
 
 def week_monday(date):
     return date - datetime.timedelta(days=date.weekday())
@@ -49,7 +68,16 @@ def save_manifest(data, path):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def pick_unused(data, n=1):
+def pick_unused(data, n=1, prefer_tags=None, tries=8):
+    """Pick n unused entries at random, resetting the pool if it's too small.
+
+    If prefer_tags is given, make a few extra attempts (up to `tries`) to
+    land a draw where at least one picked entry's dish_tags intersects
+    prefer_tags -- e.g. so Friday's weekly post sometimes actually shows
+    salmao/rabada and can get the specific-dish caption. Not a hard
+    requirement: if no attempt matches, the last draw is used as-is (falls
+    back to the generic caption).
+    """
     assets = data["assets"]
     pool = [a for a in assets if not a["used"]]
     if len(pool) < n:
@@ -57,7 +85,14 @@ def pick_unused(data, n=1):
             a["used"] = False
             a["used_at"] = None
         pool = assets
+
+    attempts = tries if prefer_tags else 1
     picks = random.sample(pool, min(n, len(pool)))
+    for _ in range(attempts):
+        if prefer_tags and any(set(p.get("dish_tags") or []) & prefer_tags for p in picks):
+            break
+        picks = random.sample(pool, min(n, len(pool)))
+
     now = datetime.datetime.now().isoformat(timespec="seconds")
     for entry in picks:
         entry["used"] = True
@@ -89,37 +124,49 @@ def main():
         })
 
     # One weekly feed post -- reel OR carousel, never both the same week.
-    # Caption deliberately passes weekday=None (generic copy, no dish name)
-    # even though the weekly slot always lands on Friday (salmao e rabada
-    # day) -- the manifest photos/videos are NOT tagged by which dish they
-    # show, so a random pick almost never actually depicts that day's
-    # special (confirmed 2026-08-05: a Friday carousel picked photos of the
-    # dining room, rice, feijoada, pudim and raw steak -- none of it
-    # salmon). Only use build_caption(kind, "sexta") for a specific post
-    # after visually confirming its actual items show that day's dish.
+    # The manifests now carry dish_tags from a visual classification pass
+    # (see augratin_feed_manifest.json / augratin_reels_manifest.json), so
+    # the weekly slot's weekday ("sexta" today, but this generalizes if the
+    # schedule ever changes) is only passed to build_caption() -- and a
+    # dish is only named in the caption -- when the actual picked items'
+    # dish_tags confirm that day's special. pick_unused() makes a few extra
+    # attempts to draw a matching item so the specific-dish caption is
+    # achievable sometimes; when no attempt matches, caption stays generic
+    # (confirmed 2026-08-05: a random Friday carousel showed dining room,
+    # rice, feijoada, pudim and raw steak -- no salmon/rabada -- so it must
+    # never claim a dish the media doesn't show).
     friday = monday + datetime.timedelta(days=4)
+    weekly_weekday = "sexta"
+    wanted_tags = WEEKDAY_DISH_TAGS.get(weekly_weekday)
     weekly_kind = random.choice(["reel", "feed"])
     if weekly_kind == "reel":
-        reel_pick = pick_unused(reels_data, 1)[0]
+        reel_pick = pick_unused(reels_data, 1, prefer_tags=wanted_tags)
+        caption_weekday = weekly_weekday if items_match_weekday(reel_pick, weekly_weekday) else None
+        reel_pick = reel_pick[0]
         posts.append({
             "date": friday.isoformat(),
-            "weekday": "sexta",
+            "weekday": weekly_weekday,
             "slot": "reel",
             "items": [{
                 "file": reel_pick["file"],
                 "folder": reel_pick["folder"],
                 "drive_folder_id": reel_pick["drive_folder_id"],
+                "dish_tags": reel_pick.get("dish_tags", []),
             }],
-            "caption_text": build_caption("reel", None),
+            "caption_text": build_caption("reel", caption_weekday),
         })
     else:
-        feed_picks = pick_unused(feed_data, 5)
+        feed_picks = pick_unused(feed_data, 5, prefer_tags=wanted_tags)
+        caption_weekday = weekly_weekday if items_match_weekday(feed_picks, weekly_weekday) else None
         posts.append({
             "date": friday.isoformat(),
-            "weekday": "sexta",
+            "weekday": weekly_weekday,
             "slot": "feed",
-            "items": [{"file": p["file"], "folder": p["folder"]} for p in feed_picks],
-            "caption_text": build_caption("feed", None),
+            "items": [
+                {"file": p["file"], "folder": p["folder"], "dish_tags": p.get("dish_tags", [])}
+                for p in feed_picks
+            ],
+            "caption_text": build_caption("feed", caption_weekday),
         })
 
     posts.sort(key=lambda p: (p["date"], p["slot"] != "story"))
