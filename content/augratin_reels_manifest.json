@@ -1,5 +1,5 @@
 {
-  "_readme": "Pool de reels da Au Gratin, agregado de subpastas mensais de 'Vídeos tratados' (Fev/Mar/Maio/Jun 26). Pastas 'usados'/'Usados' dentro de cada mes foram excluidas (ja usado/arquivado). Cada entrada: file, folder (nome da subpasta, pra montar o caminho local via rclone), drive_folder_id (pra resolve_drive_url.py conseguir a URL publica pro lado do Instagram), type, used, used_at. generate_week_plan.py escolhe 1 nao usado por semana, reseta o pool quando esgota.",
+  "_readme": "Pool de reels da Au Gratin, agregado de subpastas mensais de 'Vídeos tratados' (Fev/Mar/Maio/Jun 26 + 'Robson edit', esta ultima adicionada 05/08/2026 a pedido do Rob). Pastas 'usados'/'Usados' dentro de cada mes foram excluidas (ja usado/arquivado). Cada entrada: file (alguns arquivos de 'Robson edit' nao tem extensao no nome real no Drive, ex. 'Casa cheia' -- confirmado via rclone lsjson, nao e' erro), folder (nome da subpasta, pra montar o caminho local via rclone), drive_folder_id (pra resolve_drive_url.py conseguir a URL publica pro lado do Instagram), type, used, used_at. generate_week_plan.py escolhe 1 nao usado por semana, reseta o pool quando esgota.",
   "assets": [
     {
       "file": "Augratin edit salmao e pista.mp4",
@@ -165,6 +165,54 @@
       "file": "pista quente.mp4",
       "folder": "Fevereiro 26",
       "drive_folder_id": "1cKeiwn67pOm4ZW7JL1HFcs7AMH_9uDD1",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Casa cheia",
+      "folder": "Robson edit",
+      "drive_folder_id": "1yf3ri2amCbDMh8mzdKDSRt0KpwqMchbD",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Clientes comendo",
+      "folder": "Robson edit",
+      "drive_folder_id": "1yf3ri2amCbDMh8mzdKDSRt0KpwqMchbD",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Momentos ",
+      "folder": "Robson edit",
+      "drive_folder_id": "1yf3ri2amCbDMh8mzdKDSRt0KpwqMchbD",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Montando prato",
+      "folder": "Robson edit",
+      "drive_folder_id": "1yf3ri2amCbDMh8mzdKDSRt0KpwqMchbD",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Pratos",
+      "folder": "Robson edit",
+      "drive_folder_id": "1yf3ri2amCbDMh8mzdKDSRt0KpwqMchbD",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Quinta sushi",
+      "folder": "Robson edit",
+      "drive_folder_id": "1yf3ri2amCbDMh8mzdKDSRt0KpwqMchbD",
       "type": "video",
       "used": false,
       "used_at": null

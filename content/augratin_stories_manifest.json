@@ -83,8 +83,8 @@
     {
       "file": "21.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-08-05T17:03:53"
     },
     {
       "file": "22.jpg",
@@ -553,12 +553,6 @@
       "type": "video",
       "used": false,
       "used_at": null
-    },
-    {
-      "file": "domingo é dia de inoo (2).mp4",
-      "type": "video",
-      "used": true,
-      "used_at": "2026-08-05T13:49:49"
     },
     {
       "file": "venha nos visitar!.mp4",
