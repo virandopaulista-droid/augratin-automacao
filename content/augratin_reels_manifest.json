@@ -1,0 +1,173 @@
+{
+  "_readme": "Pool de reels da Au Gratin, agregado de subpastas mensais de 'Vídeos tratados' (Fev/Mar/Maio/Jun 26). Pastas 'usados'/'Usados' dentro de cada mes foram excluidas (ja usado/arquivado). Cada entrada: file, folder (nome da subpasta, pra montar o caminho local via rclone), drive_folder_id (pra resolve_drive_url.py conseguir a URL publica pro lado do Instagram), type, used, used_at. generate_week_plan.py escolhe 1 nao usado por semana, reseta o pool quando esgota.",
+  "assets": [
+    {
+      "file": "Augratin edit salmao e pista.mp4",
+      "folder": "Jun 26",
+      "drive_folder_id": "1M1htkZCYP1xtz0Nk3p4_lhS61kOIRGtY",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Vídeo da rabada, pista toda e salmão.mp4",
+      "folder": "Jun 26",
+      "drive_folder_id": "1M1htkZCYP1xtz0Nk3p4_lhS61kOIRGtY",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Edit pista de salada.mp4",
+      "folder": "Maio 26",
+      "drive_folder_id": "16xwCXxJjl8QQ6Zau4jB-Ao5a7O6sFOwm",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Edit pista doce.mp4",
+      "folder": "Maio 26",
+      "drive_folder_id": "16xwCXxJjl8QQ6Zau4jB-Ao5a7O6sFOwm",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Problemas.mp4",
+      "folder": "Maio 26",
+      "drive_folder_id": "16xwCXxJjl8QQ6Zau4jB-Ao5a7O6sFOwm",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Edit - casa cheia.mp4",
+      "folder": "Março 26",
+      "drive_folder_id": "1T4c5t5-KLxWwgjCWFe2N7uo_R21CkZsq",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Edit das massas.mp4",
+      "folder": "Março 26",
+      "drive_folder_id": "1T4c5t5-KLxWwgjCWFe2N7uo_R21CkZsq",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Edit geral dos pratos.mp4",
+      "folder": "Março 26",
+      "drive_folder_id": "1T4c5t5-KLxWwgjCWFe2N7uo_R21CkZsq",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Edit pista doce.mp4",
+      "folder": "Março 26",
+      "drive_folder_id": "1T4c5t5-KLxWwgjCWFe2N7uo_R21CkZsq",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Edit sushi.mp4",
+      "folder": "Março 26",
+      "drive_folder_id": "1T4c5t5-KLxWwgjCWFe2N7uo_R21CkZsq",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Montagem bife com molho madeira.mp4",
+      "folder": "Março 26",
+      "drive_folder_id": "1T4c5t5-KLxWwgjCWFe2N7uo_R21CkZsq",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Montagem costela com batata.mp4",
+      "folder": "Março 26",
+      "drive_folder_id": "1T4c5t5-KLxWwgjCWFe2N7uo_R21CkZsq",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "POV você encontrou o melhor lugar.mp4",
+      "folder": "Março 26",
+      "drive_folder_id": "1T4c5t5-KLxWwgjCWFe2N7uo_R21CkZsq",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Video robson.mp4",
+      "folder": "Março 26",
+      "drive_folder_id": "1T4c5t5-KLxWwgjCWFe2N7uo_R21CkZsq",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Edit geral da producao.mp4",
+      "folder": "Fevereiro 26",
+      "drive_folder_id": "1cKeiwn67pOm4ZW7JL1HFcs7AMH_9uDD1",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Edit pista doce.mp4",
+      "folder": "Fevereiro 26",
+      "drive_folder_id": "1cKeiwn67pOm4ZW7JL1HFcs7AMH_9uDD1",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Fazendo o suflê de espinafre.mp4",
+      "folder": "Fevereiro 26",
+      "drive_folder_id": "1cKeiwn67pOm4ZW7JL1HFcs7AMH_9uDD1",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Feijoada.mp4",
+      "folder": "Fevereiro 26",
+      "drive_folder_id": "1cKeiwn67pOm4ZW7JL1HFcs7AMH_9uDD1",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Montando parmegiana.mp4",
+      "folder": "Fevereiro 26",
+      "drive_folder_id": "1cKeiwn67pOm4ZW7JL1HFcs7AMH_9uDD1",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Narrado.mp4",
+      "folder": "Fevereiro 26",
+      "drive_folder_id": "1cKeiwn67pOm4ZW7JL1HFcs7AMH_9uDD1",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "pista quente.mp4",
+      "folder": "Fevereiro 26",
+      "drive_folder_id": "1cKeiwn67pOm4ZW7JL1HFcs7AMH_9uDD1",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    }
+  ]
+}

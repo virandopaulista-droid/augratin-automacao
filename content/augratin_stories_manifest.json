@@ -1,0 +1,570 @@
+{
+  "_readme": "Pool de stories prontos da Au Gratin ('Stories Iasmim' no Drive, pasta plana sem subpastas). Cada entrada: file (relativo a essa pasta), type (image|video), used, used_at. Listado 05/08/2026 via listagem direta do Drive montado (sem inspecao visual individual). generate_week_plan.py escolhe 1 nao usado por dia, reseta o pool quando esgota.",
+  "drive_folder_id": "1rBwVvcmUZTDMjU3C1WcUR8sbtaqIG8s9",
+  "assets": [
+    {
+      "file": "1.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "10.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "11.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "12.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "13.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "14.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "15.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "16.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "17.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "18.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "19.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "2.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "20.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "21.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "22.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "23.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "24.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "25.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "26.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "27.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "28.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "29.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "3.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "30.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "31.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "32.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "33.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "34.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "35.jpg",
+      "type": "image",
+      "used": true,
+      "used_at": "2026-08-05T13:49:49"
+    },
+    {
+      "file": "36.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "37.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "38.jpg",
+      "type": "image",
+      "used": true,
+      "used_at": "2026-08-05T13:49:49"
+    },
+    {
+      "file": "39.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "4.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "40.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "41.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "42.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "43.jpg",
+      "type": "image",
+      "used": true,
+      "used_at": "2026-08-05T13:49:49"
+    },
+    {
+      "file": "44.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "45.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "46.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "47.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "48.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "49.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "5.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "50.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "51.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "52.mp4",
+      "type": "video",
+      "used": true,
+      "used_at": "2026-08-05T13:49:49"
+    },
+    {
+      "file": "53.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "54.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "55.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "56.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "57.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "58.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "59.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "6.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "60.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "7.jpg",
+      "type": "image",
+      "used": true,
+      "used_at": "2026-08-05T13:49:49"
+    },
+    {
+      "file": "8.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "9.jpg",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (1).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (10).png",
+      "type": "image",
+      "used": true,
+      "used_at": "2026-08-05T13:49:49"
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (11).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (12).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (13).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (14).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (15).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (16).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (17).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (18).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (19).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (2).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (20).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (22).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (23).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (24).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (25).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (3).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (4).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (5).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (6).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (7).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories   (9).png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Bom dia fotográfico instagram stories  .png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Design sem nome (2).mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Design sem nome (3).mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Design sem nome (4).mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Design sem nome.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "GRATINADO! (1).mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Hoje é dia de.png",
+      "type": "image",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "No Au Gratin, a quinta ganha toque japonês.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "Seu momento doce está aqui.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "file": "domingo é dia de inoo (2).mp4",
+      "type": "video",
+      "used": true,
+      "used_at": "2026-08-05T13:49:49"
+    },
+    {
+      "file": "venha nos visitar!.mp4",
+      "type": "video",
+      "used": false,
+      "used_at": null
+    }
+  ]
+}
