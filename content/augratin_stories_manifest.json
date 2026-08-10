@@ -287,8 +287,8 @@
     {
       "file": "52.mp4",
       "type": "video",
-      "used": true,
-      "used_at": "2026-08-05T13:49:49"
+      "used": false,
+      "used_at": null
     },
     {
       "file": "53.mp4",
@@ -360,7 +360,7 @@
       "file": "9.jpg",
       "type": "image",
       "used": true,
-      "used_at": "2026-08-05T15:09:12"
+      "used_at": "2026-08-10T00:00:00"
     },
     {
       "file": "Bom dia fotográfico instagram stories   (1).png",
@@ -371,14 +371,14 @@
     {
       "file": "Bom dia fotográfico instagram stories   (10).png",
       "type": "image",
-      "used": true,
-      "used_at": "2026-08-05T13:49:49"
+      "used": false,
+      "used_at": null
     },
     {
       "file": "Bom dia fotográfico instagram stories   (11).png",
       "type": "image",
       "used": true,
-      "used_at": "2026-08-05T15:09:12"
+      "used_at": "2026-08-10T00:00:00"
     },
     {
       "file": "Bom dia fotográfico instagram stories   (12).png",

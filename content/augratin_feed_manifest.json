@@ -25,8 +25,8 @@
       "file": "IMG_7378.heic",
       "folder": "2026/Junho 26",
       "type": "image",
-      "used": true,
-      "used_at": "2026-08-05T13:49:49",
+      "used": false,
+      "used_at": null,
       "dish_tags": [
         "preparo"
       ]
@@ -285,8 +285,8 @@
       "file": "IMG_7476.heic",
       "folder": "2026/Junho 26",
       "type": "image",
-      "used": true,
-      "used_at": "2026-08-05T13:49:49",
+      "used": false,
+      "used_at": null,
       "dish_tags": [
         "variado"
       ]
@@ -597,8 +597,8 @@
       "file": "IMG_3238.heic",
       "folder": "2026/Maio 26",
       "type": "image",
-      "used": true,
-      "used_at": "2026-08-05T13:49:49",
+      "used": false,
+      "used_at": null,
       "dish_tags": [
         "salao"
       ]
@@ -607,8 +607,8 @@
       "file": "IMG_3242.heic",
       "folder": "2026/Maio 26",
       "type": "image",
-      "used": true,
-      "used_at": "2026-08-05T13:49:49",
+      "used": false,
+      "used_at": null,
       "dish_tags": [
         "sobremesa"
       ]
@@ -650,8 +650,8 @@
       "file": "IMG_3252.heic",
       "folder": "2026/Maio 26",
       "type": "image",
-      "used": true,
-      "used_at": "2026-08-05T13:49:49",
+      "used": false,
+      "used_at": null,
       "dish_tags": [
         "feijoada"
       ]

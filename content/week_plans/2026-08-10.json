@@ -42,7 +42,7 @@
       "slot": "story",
       "items": [
         {
-          "file": "Bom dia fotográfico instagram stories   (10).png",
+          "file": "Bom dia fotográfico instagram stories   (11).png",
           "type": "image"
         }
       ]
@@ -53,8 +53,8 @@
       "slot": "story",
       "items": [
         {
-          "file": "52.mp4",
-          "type": "video"
+          "file": "9.jpg",
+          "type": "image"
         }
       ]
     },
@@ -64,27 +64,43 @@
       "slot": "feed",
       "items": [
         {
-          "file": "IMG_3238.heic",
-          "folder": "2026/Maio 26"
+          "file": "IMG_7437.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "outro"
+          ]
         },
         {
-          "file": "IMG_7476.heic",
-          "folder": "2026/Junho 26"
+          "file": "IMG_7495.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "rabada"
+          ]
         },
         {
-          "file": "IMG_3252.heic",
-          "folder": "2026/Maio 26"
+          "file": "IMG_7475.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "variado"
+          ]
         },
         {
-          "file": "IMG_3242.heic",
-          "folder": "2026/Maio 26"
+          "file": "IMG_7388.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "salmao"
+          ]
         },
         {
-          "file": "IMG_7378.heic",
-          "folder": "2026/Junho 26"
+          "file": "IMG_7528.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "salmao",
+            "variado"
+          ]
         }
       ],
-      "caption_text": "✨ Que tal passar no AU GRATIN hoje?\n\nVenha nos visitar e aproveite um almoço delicioso no nosso buffet... 🍽️\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n⏰ Segunda a sexta, das 11h às 15h"
+      "caption_text": "✨ Hoje tem salmão fresco e rabada esperando por você no nosso buffet! Chega, monte seu prato à vontade e aproveite.\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n⏰ Segunda a sexta, das 11h às 15h\n\n#salmao #rabada #restaurantesantoamaro #selfservicesp #almocoemsp"
     }
   ]
 }
