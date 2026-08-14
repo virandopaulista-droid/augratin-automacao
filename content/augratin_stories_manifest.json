@@ -26,7 +26,11 @@
       "file": "12.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "sexta",
+      "dish_tags": [
+        "salmao"
+      ]
     },
     {
       "file": "13.jpg",
@@ -38,7 +42,8 @@
       "file": "14.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "terca"
     },
     {
       "file": "15.jpg",
@@ -110,19 +115,28 @@
       "file": "23.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "salmao"
+      ]
     },
     {
       "file": "24.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "salmao"
+      ]
     },
     {
       "file": "25.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "feijoada"
+      ]
     },
     {
       "file": "26.jpg",
@@ -146,7 +160,10 @@
       "file": "29.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "3.jpg",
@@ -170,7 +187,10 @@
       "file": "32.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "feijoada"
+      ]
     },
     {
       "file": "33.jpg",
@@ -188,19 +208,29 @@
       "file": "35.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "36.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "37.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "quinta",
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "38.jpg",
@@ -216,7 +246,11 @@
       "file": "39.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "sexta",
+      "dish_tags": [
+        "salmao"
+      ]
     },
     {
       "file": "4.jpg",
@@ -228,7 +262,10 @@
       "file": "40.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "costela_no_bafo"
+      ]
     },
     {
       "file": "41.jpg",
@@ -246,7 +283,10 @@
       "file": "43.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "costela_no_bafo"
+      ]
     },
     {
       "file": "44.jpg",
@@ -264,7 +304,11 @@
       "file": "46.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "quinta",
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "47.jpg",
@@ -298,7 +342,10 @@
       "file": "50.mp4",
       "type": "video",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "51.mp4",
@@ -322,7 +369,10 @@
       "file": "54.mp4",
       "type": "video",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "costela_no_bafo"
+      ]
     },
     {
       "file": "55.mp4",
@@ -364,7 +414,10 @@
       "file": "60.mp4",
       "type": "video",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "costela_no_bafo"
+      ]
     },
     {
       "file": "7.jpg",
@@ -414,13 +467,17 @@
       "file": "Bom dia fotográfico instagram stories   (13).png",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "terca"
     },
     {
       "file": "Bom dia fotográfico instagram stories   (14).png",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "feijoada"
+      ]
     },
     {
       "file": "Bom dia fotográfico instagram stories   (15).png",
@@ -438,13 +495,19 @@
       "file": "Bom dia fotográfico instagram stories   (17).png",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "Bom dia fotográfico instagram stories   (18).png",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "salmao"
+      ]
     },
     {
       "file": "Bom dia fotográfico instagram stories   (19).png",
@@ -462,7 +525,10 @@
       "file": "Bom dia fotográfico instagram stories   (20).png",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "Bom dia fotográfico instagram stories   (22).png",
@@ -486,13 +552,20 @@
       "file": "Bom dia fotográfico instagram stories   (25).png",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "Bom dia fotográfico instagram stories   (3).png",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "quinta",
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "Bom dia fotográfico instagram stories   (4).png",
@@ -504,7 +577,10 @@
       "file": "Bom dia fotográfico instagram stories   (5).png",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "feijoada"
+      ]
     },
     {
       "file": "Bom dia fotográfico instagram stories   (6).png",
@@ -516,7 +592,10 @@
       "file": "Bom dia fotográfico instagram stories   (7).png",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "salmao"
+      ]
     },
     {
       "file": "Bom dia fotográfico instagram stories   (9).png",
@@ -538,7 +617,10 @@
       "file": "Design sem nome (2).mp4",
       "type": "video",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "feijoada"
+      ]
     },
     {
       "file": "Design sem nome (3).mp4",
@@ -547,16 +629,14 @@
       "used_at": null
     },
     {
-      "file": "Design sem nome (4).mp4",
-      "type": "video",
-      "used": false,
-      "used_at": null
-    },
-    {
       "file": "Design sem nome.mp4",
       "type": "video",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "sexta",
+      "dish_tags": [
+        "salmao"
+      ]
     },
     {
       "file": "GRATINADO! (1).mp4",
@@ -568,7 +648,11 @@
       "file": "Hoje é dia de.png",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "sexta",
+      "dish_tags": [
+        "salmao"
+      ]
     },
     {
       "file": "No Au Gratin, a quinta ganha toque japonês.mp4",
@@ -590,7 +674,11 @@
       "file": "venha nos visitar!.mp4",
       "type": "video",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "sexta",
+      "dish_tags": [
+        "salmao"
+      ]
     }
   ]
 }
