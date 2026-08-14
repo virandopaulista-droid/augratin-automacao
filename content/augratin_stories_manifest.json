@@ -12,13 +12,15 @@
       "file": "10.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "terca"
     },
     {
       "file": "11.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "terca"
     },
     {
       "file": "12.jpg",
@@ -66,19 +68,22 @@
       "file": "19.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "quinta"
     },
     {
       "file": "2.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "sexta"
     },
     {
       "file": "20.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "quinta"
     },
     {
       "file": "21.jpg",
@@ -506,7 +511,8 @@
       "file": "Bom dia fotográfico instagram stories  .png",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "locked_weekday": "quinta"
     },
     {
       "file": "Design sem nome (2).mp4",
