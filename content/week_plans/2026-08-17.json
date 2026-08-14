@@ -64,38 +64,39 @@
       "slot": "feed",
       "items": [
         {
-          "file": "IMG_3263.heic",
-          "folder": "2026/Maio 26",
-          "dish_tags": [
-            "sobremesa"
-          ]
-        },
-        {
-          "file": "IMG_7506.heic",
+          "file": "IMG_7437.heic",
           "folder": "2026/Junho 26",
           "dish_tags": [
-            "sobremesa"
+            "outro"
           ]
         },
         {
-          "file": "IMG_7515.heic",
+          "file": "IMG_7495.heic",
           "folder": "2026/Junho 26",
           "dish_tags": [
-            "sobremesa"
+            "rabada"
           ]
         },
         {
-          "file": "IMG_7512.heic",
+          "file": "IMG_7475.heic",
           "folder": "2026/Junho 26",
           "dish_tags": [
-            "sobremesa"
+            "variado"
           ]
         },
         {
-          "file": "IMG_7390.heic",
+          "file": "IMG_7388.heic",
           "folder": "2026/Junho 26",
           "dish_tags": [
             "salmao"
+          ]
+        },
+        {
+          "file": "IMG_7528.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "salmao",
+            "variado"
           ]
         }
       ],
