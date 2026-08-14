@@ -56,27 +56,36 @@
       "file": "17.jpg",
       "type": "image",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "dish_tags": [
+        "feijoada"
+      ]
     },
     {
       "file": "18.jpg",
       "type": "image",
-      "used": true,
-      "used_at": "2026-08-11T02:54:32"
+      "used": false,
+      "used_at": null
     },
     {
       "file": "19.jpg",
       "type": "image",
       "used": true,
       "used_at": "2026-08-14T02:38:06",
-      "locked_weekday": "quinta"
+      "locked_weekday": "quinta",
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "2.jpg",
       "type": "image",
       "used": true,
       "used_at": "2026-08-14T02:38:06",
-      "locked_weekday": "sexta"
+      "locked_weekday": "sexta",
+      "dish_tags": [
+        "salmao"
+      ]
     },
     {
       "file": "20.jpg",
@@ -198,7 +207,10 @@
       "type": "image",
       "used": true,
       "used_at": "2026-08-05T13:49:49",
-      "locked_weekday": "quinta"
+      "locked_weekday": "quinta",
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "39.jpg",
@@ -265,7 +277,10 @@
       "type": "video",
       "used": true,
       "used_at": "2026-08-11T02:54:32",
-      "locked_weekday": "quarta"
+      "locked_weekday": "quarta",
+      "dish_tags": [
+        "feijoada"
+      ]
     },
     {
       "file": "49.mp4",
@@ -512,9 +527,12 @@
     {
       "file": "Bom dia fotográfico instagram stories  .png",
       "type": "image",
-      "used": false,
-      "used_at": null,
-      "locked_weekday": "quinta"
+      "used": true,
+      "used_at": "2026-08-14T16:33:36",
+      "locked_weekday": "quinta",
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "Design sem nome (2).mp4",
@@ -557,7 +575,10 @@
       "type": "video",
       "used": false,
       "used_at": null,
-      "locked_weekday": "quinta"
+      "locked_weekday": "quinta",
+      "dish_tags": [
+        "sushi"
+      ]
     },
     {
       "file": "Seu momento doce está aqui.mp4",
