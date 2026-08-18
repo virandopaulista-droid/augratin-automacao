@@ -25,7 +25,10 @@
           "file": "Bom dia fotográfico instagram stories   (4).png",
           "type": "image"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-08-18T12:01:28",
+      "posting_error": "Falha parcial/total ao publicar -- verificar manualmente o que saiu de verdade. Erro: comando falhou (exit 1): ['bash', '/home/runner/work/augratin-automacao/augratin-automacao/scripts/post_story_all.sh', '/home/runner/gdrive/Agência BEEF MTK/Clientes /Au Gratin/Stories Iasmim/Bom dia fotográfico instagram stories   (4).png']"
     },
     {
       "date": "2026-08-19",
