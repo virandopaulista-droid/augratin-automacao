@@ -39,7 +39,10 @@
           "file": "48.mp4",
           "type": "video"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-08-19T12:06:48",
+      "posting_error": "Falha parcial/total ao publicar -- verificar manualmente o que saiu de verdade. Erro: comando falhou (exit 1): ['/opt/hostedtoolcache/Python/3.12.14/x64/bin/python3', '/home/runner/work/augratin-automacao/augratin-automacao/scripts/resolve_drive_url.py', '48.mp4', '1rBwVvcmUZTDMjU3C1WcUR8sbtaqIG8s9']"
     },
     {
       "date": "2026-08-20",
