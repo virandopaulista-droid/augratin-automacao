@@ -76,11 +76,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: TEMP -- republica so a perna do Instagram do story de 19/08 (remover apos rodar)
-        run: |
-          printf 'FB_PAGE_ACCESS_TOKEN="%s"\nIG_BUSINESS_ID="%s"\n' "$FB_PAGE_ACCESS_TOKEN" "$IG_BUSINESS_ID" > .env
-          bash scripts/post_story_video_instagram.sh "https://drive.google.com/uc?export=download&id=1ymB0e8ku8eky0GsYZsd1w_ULtS5IhAGc"
-
       - name: Checa se ha algo a postar agora (sem montar o Drive)
         id: gate
         run: |
