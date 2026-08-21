@@ -110,7 +110,10 @@
           ]
         }
       ],
-      "caption_text": "✨ Hoje tem salmão fresco e rabada esperando por você no nosso buffet! \n\nChega, monte seu prato à vontade e aproveite.\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n⏰ Segunda a sexta, das 11h às 15h\n\n#restaurantesantoamaro #selfservicesp #comidacaseira #buffetsp #almocoespecial"
+      "caption_text": "✨ Hoje tem salmão fresco e rabada esperando por você no nosso buffet! \n\nChega, monte seu prato à vontade e aproveite.\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n⏰ Segunda a sexta, das 11h às 15h\n\n#restaurantesantoamaro #selfservicesp #comidacaseira #buffetsp #almocoespecial",
+      "posted": true,
+      "posted_at": "2026-08-21T11:01:31",
+      "posting_error": "Falha parcial/total ao publicar -- verificar manualmente o que saiu de verdade. Erro: comando falhou (exit 183): ['bash', '/home/runner/work/augratin-automacao/augratin-automacao/scripts/convert_heic_to_jpg.sh', '/home/runner/gdrive/Agência BEEF MTK/Clientes /Au Gratin/Fotos - Tratadas/2026/Junho 26/IMG_7437.heic', '/home/runner/work/augratin-automacao/augratin-automacao/_tmp_feed_0.jpg']"
     }
   ]
 }
