@@ -18,8 +18,8 @@
     {
       "file": "11.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-08-31T00:11:28",
       "locked_weekday": "terca"
     },
     {
@@ -114,8 +114,8 @@
     {
       "file": "23.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-08-31T00:11:28",
       "dish_tags": [
         "salmao"
       ]
@@ -207,8 +207,8 @@
     {
       "file": "35.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-08-31T00:11:28",
       "dish_tags": [
         "sushi"
       ]
@@ -407,8 +407,8 @@
     {
       "file": "6.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-08-31T00:11:28"
     },
     {
       "file": "60.mp4",
@@ -591,8 +591,8 @@
     {
       "file": "Bom dia fotográfico instagram stories   (7).png",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-08-31T00:11:28",
       "dish_tags": [
         "salmao"
       ]
