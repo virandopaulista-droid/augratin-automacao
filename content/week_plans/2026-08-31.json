@@ -1,0 +1,78 @@
+{
+  "week_start": "2026-08-31",
+  "status": "pending_approval",
+  "generated_at": "2026-08-31T00:11:28",
+  "posts": [
+    {
+      "date": "2026-08-31",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "23.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "file": "11.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "6.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "35.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "Bom dia fotográfico instagram stories   (7).png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "weekday": "sexta",
+      "slot": "reel",
+      "items": [
+        {
+          "file": "Pratos",
+          "folder": "Robson edit",
+          "drive_folder_id": "1yf3ri2amCbDMh8mzdKDSRt0KpwqMchbD",
+          "dish_tags": [
+            "costela_no_bafo"
+          ]
+        }
+      ],
+      "caption_text": "✨ Que tal passar no AU GRATIN hoje?\n\nVenha nos visitar e aproveite um almoço delicioso no nosso buffet... 🍽️\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n⏰ Segunda a sexta, das 11h às 15h"
+    }
+  ]
+}
