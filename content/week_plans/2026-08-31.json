@@ -25,7 +25,9 @@
           "file": "11.jpg",
           "type": "image"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-09-01T12:02:45"
     },
     {
       "date": "2026-09-02",
