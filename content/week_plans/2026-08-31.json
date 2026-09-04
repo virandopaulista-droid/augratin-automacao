@@ -80,7 +80,10 @@
           ]
         }
       ],
-      "caption_text": "✨ Que tal passar no AU GRATIN hoje?\n\nVenha nos visitar e aproveite um almoço delicioso no nosso buffet... 🍽️\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n⏰ Segunda a sexta, das 11h às 15h"
+      "caption_text": "✨ Que tal passar no AU GRATIN hoje?\n\nVenha nos visitar e aproveite um almoço delicioso no nosso buffet... 🍽️\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n⏰ Segunda a sexta, das 11h às 15h",
+      "posted": true,
+      "posted_at": "2026-09-04T11:01:49",
+      "posting_error": "Falha parcial/total ao publicar -- verificar manualmente o que saiu de verdade. Erro: comando falhou (exit 1): ['bash', '/home/runner/work/augratin-automacao/augratin-automacao/scripts/post_reel_fb.sh', '/home/runner/gdrive/Agência BEEF MTK/Clientes /Au Gratin/Vídeos tratados /Robson edit/Pratos', '/home/runner/work/augratin-automacao/augratin-automacao/content/caption_live_queowyb1.txt']"
     }
   ]
 }
