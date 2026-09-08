@@ -60,8 +60,8 @@
     {
       "file": "17.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-08T15:15:22",
       "dish_tags": [
         "feijoada"
       ]
@@ -132,8 +132,8 @@
     {
       "file": "25.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-08T15:15:22",
       "dish_tags": [
         "feijoada"
       ]
@@ -282,8 +282,8 @@
     {
       "file": "43.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-08T15:15:22",
       "dish_tags": [
         "costela_no_bafo"
       ]
@@ -329,8 +329,8 @@
     {
       "file": "49.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-08T15:15:22"
     },
     {
       "file": "5.jpg",
@@ -512,8 +512,8 @@
     {
       "file": "Bom dia fotográfico instagram stories   (19).png",
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-08T15:15:22"
     },
     {
       "file": "Bom dia fotográfico instagram stories   (2).png",
