@@ -55,8 +55,8 @@
       "file": "IMG_7390.heic",
       "folder": "2026/Junho 26",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-08T15:15:22",
       "dish_tags": [
         "salmao"
       ]
@@ -235,8 +235,8 @@
       "file": "IMG_7461.heic",
       "folder": "2026/Junho 26",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-08T15:15:22",
       "dish_tags": [
         "outro"
       ]
@@ -425,8 +425,8 @@
       "file": "IMG_7512.heic",
       "folder": "2026/Junho 26",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-08T15:15:22",
       "dish_tags": [
         "sobremesa"
       ]
@@ -476,8 +476,8 @@
       "file": "IMG_3188.heic",
       "folder": "2026/Maio 26",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-08T15:15:22",
       "dish_tags": [
         "salao",
         "rabada"
@@ -597,8 +597,8 @@
       "file": "IMG_3238.heic",
       "folder": "2026/Maio 26",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-08T15:15:22",
       "dish_tags": [
         "salao"
       ]
