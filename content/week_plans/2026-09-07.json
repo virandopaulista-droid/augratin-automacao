@@ -36,7 +36,9 @@
           "file": "17.jpg",
           "type": "image"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-09-09T12:01:45"
     },
     {
       "date": "2026-09-10",
