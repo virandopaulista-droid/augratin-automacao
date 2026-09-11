@@ -54,8 +54,8 @@
     {
       "file": "16.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-11T05:59:08"
     },
     {
       "file": "17.jpg",
@@ -168,8 +168,8 @@
     {
       "file": "3.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-11T05:59:08"
     },
     {
       "file": "30.jpg",
@@ -473,8 +473,8 @@
     {
       "file": "Bom dia fotográfico instagram stories   (14).png",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-11T05:59:08",
       "dish_tags": [
         "feijoada"
       ]
@@ -503,8 +503,8 @@
     {
       "file": "Bom dia fotográfico instagram stories   (18).png",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-11T05:59:08",
       "dish_tags": [
         "salmao"
       ]
@@ -667,8 +667,8 @@
     {
       "file": "Seu momento doce está aqui.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-11T05:59:08"
     },
     {
       "file": "venha nos visitar!.mp4",
