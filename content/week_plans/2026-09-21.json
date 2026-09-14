@@ -1,0 +1,78 @@
+{
+  "week_start": "2026-09-21",
+  "status": "pending_approval",
+  "generated_at": "2026-09-14T05:12:18",
+  "posts": [
+    {
+      "date": "2026-09-21",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "52.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "file": "33.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "Bom dia fotográfico instagram stories   (15).png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "Bom dia fotográfico instagram stories   (17).png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "47.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "weekday": "sexta",
+      "slot": "reel",
+      "items": [
+        {
+          "file": "Edit pista de salada.mp4",
+          "folder": "Maio 26",
+          "drive_folder_id": "16xwCXxJjl8QQ6Zau4jB-Ao5a7O6sFOwm",
+          "dish_tags": [
+            "variado"
+          ]
+        }
+      ],
+      "caption_text": "🍽️ Se você procura o melhor lugar para almoçar em Santo Amaro, o AU GRATIN tem tudo pra te conquistar!\n\nAqui você encontra inúmeras opções no buffet, comida caseira preparada com carinho e sabores que deixam qualquer almoço muito mais especial...✨\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n⏰ Segunda a sexta, das 11h às 15h\n\n#restaurantesantoamaro #selfservicesp #comidacaseira #buffetsp #almocoespecial"
+    }
+  ]
+}
