@@ -12,7 +12,10 @@
           "file": "52.mp4",
           "type": "video"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-09-21T16:50:02",
+      "posting_error": "Falha parcial/total ao publicar -- verificar manualmente o que saiu de verdade. Erro: comando falhou (exit 1): ['bash', '/home/runner/work/augratin-automacao/augratin-automacao/scripts/post_story_video_instagram.sh', 'https://drive.google.com/uc?export=download&id=1dBiWKkyZ5LKrxqDVOKenrHHhDJp2tnbg']"
     },
     {
       "date": "2026-09-22",
