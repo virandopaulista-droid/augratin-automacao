@@ -87,6 +87,13 @@ def resolve_caption_file(post):
 
 def path_for_story(item):
     base = os.environ["AUGRATIN_STORIES_DIR"]
+    # BUG CORRIGIDO 2026-09-24: ignorava o campo "folder" do manifest, entao
+    # arquivo em subpasta era procurado na raiz de Stories e nunca achado.
+    # Necessario agora que o autoSyncStories grava "folder" pra tudo que
+    # estiver dentro de subpasta (mesmo fix do Maki/Inoo Burguer/Dreis).
+    folder = item.get("folder")
+    if folder:
+        return os.path.join(base, folder, item["file"])
     return os.path.join(base, item["file"])
 
 
@@ -165,7 +172,7 @@ def handle_story(post):
         print(bash("post_story_all.sh", path))
     else:
         print(bash("post_story_video_fb.sh", path))
-        folder_id = os.environ.get("AUGRATIN_STORIES_DRIVE_FOLDER_ID", "1rBwVvcmUZTDMjU3C1WcUR8sbtaqIG8s9")
+        folder_id = item.get("drive_folder_id") or os.environ.get("AUGRATIN_STORIES_DRIVE_FOLDER_ID", "1rBwVvcmUZTDMjU3C1WcUR8sbtaqIG8s9")
         video_url = python("resolve_drive_url.py", item["file"], folder_id)
         print(bash("post_story_video_instagram.sh", video_url))
 
