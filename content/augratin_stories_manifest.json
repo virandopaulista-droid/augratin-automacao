@@ -48,8 +48,8 @@
     {
       "file": "15.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-28T04:28:13"
     },
     {
       "file": "16.jpg",
@@ -159,8 +159,8 @@
     {
       "file": "29.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-28T04:28:13",
       "dish_tags": [
         "sushi"
       ]
@@ -362,8 +362,8 @@
     {
       "file": "53.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-28T04:28:13"
     },
     {
       "file": "54.mp4",
@@ -395,8 +395,8 @@
     {
       "file": "58.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-28T04:28:13"
     },
     {
       "file": "59.mp4",
@@ -459,8 +459,8 @@
     {
       "file": "Bom dia fotográfico instagram stories   (12).png",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-28T04:28:13",
       "locked_weekday": "sexta"
     },
     {
