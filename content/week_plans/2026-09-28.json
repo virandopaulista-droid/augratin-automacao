@@ -1,0 +1,105 @@
+{
+  "week_start": "2026-09-28",
+  "status": "pending_approval",
+  "generated_at": "2026-09-28T04:28:13",
+  "posts": [
+    {
+      "date": "2026-09-28",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "15.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "file": "58.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "53.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "29.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "Bom dia fotográfico instagram stories   (12).png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "weekday": "sexta",
+      "slot": "feed",
+      "items": [
+        {
+          "file": "IMG_3242.heic",
+          "folder": "2026/Maio 26",
+          "dish_tags": [
+            "sobremesa"
+          ]
+        },
+        {
+          "file": "IMG_7485.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "outro"
+          ]
+        },
+        {
+          "file": "IMG_3192.heic",
+          "folder": "2026/Maio 26",
+          "dish_tags": [
+            "salao"
+          ]
+        },
+        {
+          "file": "IMG_7411.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "salmao"
+          ]
+        },
+        {
+          "file": "IMG_7441.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "outro"
+          ]
+        }
+      ],
+      "caption_text": "✨ Hoje tem salmão fresco e rabada esperando por você no nosso buffet! Chega, monte seu prato à vontade e aproveite.\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n⏰ Segunda a sexta, das 11h às 15h\n\n#restaurantesantoamaro #selfservicesp #comidacaseira #buffetsp #almocoespecial"
+    }
+  ]
+}
