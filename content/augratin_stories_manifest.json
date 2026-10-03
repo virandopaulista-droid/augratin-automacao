@@ -428,8 +428,8 @@
     {
       "file": "8.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-10-03T03:04:31"
     },
     {
       "file": "9.jpg",
@@ -576,8 +576,8 @@
     {
       "file": "Bom dia fotográfico instagram stories   (5).png",
       "type": "image",
-      "used": true,
-      "used_at": "2026-10-03T03:04:01",
+      "used": false,
+      "used_at": null,
       "dish_tags": [
         "feijoada"
       ]
