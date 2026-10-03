@@ -1,0 +1,78 @@
+{
+  "week_start": "2026-10-05",
+  "status": "pending_approval",
+  "generated_at": "2026-10-03T03:03:52",
+  "posts": [
+    {
+      "date": "2026-10-05",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "30.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "file": "24.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "32.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "37.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "44.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "weekday": "sexta",
+      "slot": "reel",
+      "items": [
+        {
+          "file": "Video robson.mp4",
+          "folder": "Março 26",
+          "drive_folder_id": "1T4c5t5-KLxWwgjCWFe2N7uo_R21CkZsq",
+          "dish_tags": [
+            "outro"
+          ]
+        }
+      ],
+      "caption_text": "✨ Todos os dias, um buffet completo espera por você. Monte seu prato do seu jeito e aproveite uma refeição preparada com cuidado, variedade e aquele sabor que transforma a pausa do almoço no melhor momento do dia.\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n\n#restaurantesantoamaro #selfservicesp #comidacaseira #buffetsp #almocoespecial"
+    }
+  ]
+}
