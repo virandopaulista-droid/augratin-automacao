@@ -12,7 +12,9 @@
           "file": "30.jpg",
           "type": "image"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-10-05T18:45:20"
     },
     {
       "date": "2026-10-06",
