@@ -51,7 +51,9 @@
           "file": "37.jpg",
           "type": "image"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-10-08T12:01:57"
     },
     {
       "date": "2026-10-09",
