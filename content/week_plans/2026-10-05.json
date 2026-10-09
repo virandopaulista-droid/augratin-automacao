@@ -64,7 +64,9 @@
           "file": "44.jpg",
           "type": "image"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-10-09T12:01:30"
     },
     {
       "date": "2026-10-09",
