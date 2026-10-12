@@ -12,7 +12,8 @@
           "file": "8.jpg",
           "type": "image"
         }
-      ]
+      ],
+      "skipped": true
     },
     {
       "date": "2026-10-13",
