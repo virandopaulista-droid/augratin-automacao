@@ -68,7 +68,10 @@
           "file": "22.jpg",
           "type": "image"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-10-23T12:07:34",
+      "posting_error": "Falha parcial/total ao publicar -- verificar manualmente o que saiu de verdade. Erro: comando falhou (exit 1): ['bash', '/home/runner/work/augratin-automacao/augratin-automacao/scripts/post_story_all.sh', '/home/runner/gdrive/Agência BEEF MTK/Clientes /Au Gratin/Stories Iasmim/22.jpg']"
     },
     {
       "date": "2026-10-23",
