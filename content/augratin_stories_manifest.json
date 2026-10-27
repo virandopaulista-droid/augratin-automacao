@@ -180,8 +180,8 @@
     {
       "file": "31.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-10-27T22:27:11"
     },
     {
       "file": "32.jpg",
@@ -245,8 +245,8 @@
     {
       "file": "39.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-27T22:27:11",
       "locked_weekday": "sexta",
       "dish_tags": [
         "salmao"
@@ -270,8 +270,8 @@
     {
       "file": "41.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-10-27T22:27:11"
     },
     {
       "file": "42.jpg",
@@ -413,8 +413,8 @@
     {
       "file": "60.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-27T22:27:11",
       "dish_tags": [
         "costela_no_bafo"
       ]
@@ -488,8 +488,8 @@
     {
       "file": "Bom dia fotográfico instagram stories   (16).png",
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-10-27T22:27:11"
     },
     {
       "file": "Bom dia fotográfico instagram stories   (17).png",
