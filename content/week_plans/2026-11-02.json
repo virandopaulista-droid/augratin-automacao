@@ -1,0 +1,78 @@
+{
+  "week_start": "2026-11-02",
+  "status": "pending_approval",
+  "generated_at": "2026-10-27T22:27:10",
+  "posts": [
+    {
+      "date": "2026-11-02",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "Bom dia fotográfico instagram stories   (25).png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "file": "Bom dia fotográfico instagram stories   (2).png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "51.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "Bom dia fotográfico instagram stories   (20).png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "12.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "weekday": "sexta",
+      "slot": "reel",
+      "items": [
+        {
+          "file": "Montando parmegiana.mp4",
+          "folder": "Fevereiro 26",
+          "drive_folder_id": "1cKeiwn67pOm4ZW7JL1HFcs7AMH_9uDD1",
+          "dish_tags": [
+            "outro"
+          ]
+        }
+      ],
+      "caption_text": "✨ Que tal passar no AU GRATIN hoje?\n\nVenha nos visitar e aproveite um almoço delicioso no nosso buffet... 🍽️\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n⏰ Segunda a sexta, das 11h às 15h"
+    }
+  ]
+}
