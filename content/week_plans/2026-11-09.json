@@ -1,0 +1,105 @@
+{
+  "week_start": "2026-11-09",
+  "status": "pending_approval",
+  "generated_at": "2026-10-27T22:27:11",
+  "posts": [
+    {
+      "date": "2026-11-09",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "50.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "file": "1.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "Bom dia fotográfico instagram stories   (16).png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "Bom dia fotográfico instagram stories   (20).png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "5.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "weekday": "sexta",
+      "slot": "feed",
+      "items": [
+        {
+          "file": "IMG_7398.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "outro"
+          ]
+        },
+        {
+          "file": "IMG_7444.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "outro"
+          ]
+        },
+        {
+          "file": "IMG_3236.heic",
+          "folder": "2026/Maio 26",
+          "dish_tags": [
+            "salao"
+          ]
+        },
+        {
+          "file": "IMG_7408.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "outro"
+          ]
+        },
+        {
+          "file": "IMG_7378.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "preparo"
+          ]
+        }
+      ],
+      "caption_text": "✨ Todos os dias, um buffet completo espera por você. Monte seu prato do seu jeito e aproveite uma refeição preparada com cuidado, variedade e aquele sabor que transforma a pausa do almoço no melhor momento do dia.\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n\n#restaurantesantoamaro #selfservicesp #comidacaseira #buffetsp #almocoespecial"
+    }
+  ]
+}
