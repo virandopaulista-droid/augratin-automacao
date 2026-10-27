@@ -1,0 +1,79 @@
+{
+  "week_start": "2026-11-16",
+  "status": "pending_approval",
+  "generated_at": "2026-10-27T22:27:11",
+  "posts": [
+    {
+      "date": "2026-11-16",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "31.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "file": "Bom dia fotográfico instagram stories   (16).png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "41.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "60.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "39.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "weekday": "sexta",
+      "slot": "reel",
+      "items": [
+        {
+          "file": "Vídeo da rabada, pista toda e salmão.mp4",
+          "folder": "Jun 26",
+          "drive_folder_id": "1M1htkZCYP1xtz0Nk3p4_lhS61kOIRGtY",
+          "dish_tags": [
+            "salmao",
+            "rabada"
+          ]
+        }
+      ],
+      "caption_text": "🍽️ Hoje o destaque fica por conta do nosso salmão fresco e rabada, preparado com todo o cuidado para entregar muito sabor em cada detalhe.\nE, claro, o buffet ainda conta com diversas outras opções esperando por você.\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n\n#restaurantesantoamaro #selfservicesp #comidacaseira #buffetsp #almocoespecial"
+    }
+  ]
+}
