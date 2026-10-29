@@ -51,7 +51,10 @@
           "file": "60.mp4",
           "type": "video"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-10-29T12:01:41",
+      "posting_error": "Falha parcial/total ao publicar -- verificar manualmente o que saiu de verdade. Erro: comando falhou (exit 1): ['bash', '/home/runner/work/augratin-automacao/augratin-automacao/scripts/post_story_video_fb.sh', '/home/runner/gdrive/Agência BEEF MTK/Clientes /Au Gratin/Stories Iasmim/60.mp4']"
     },
     {
       "date": "2026-10-30",
