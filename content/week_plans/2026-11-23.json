@@ -1,0 +1,106 @@
+{
+  "week_start": "2026-11-23",
+  "status": "pending_approval",
+  "generated_at": "2026-11-25T21:27:35",
+  "posts": [
+    {
+      "date": "2026-11-23",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "51.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "file": "Bom dia fotográfico instagram stories   (20).png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "Bom dia fotográfico instagram stories   (2).png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "50.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "27.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "sexta",
+      "slot": "feed",
+      "items": [
+        {
+          "file": "IMG_7490.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "rabada"
+          ]
+        },
+        {
+          "file": "IMG_3221.heic",
+          "folder": "2026/Maio 26",
+          "dish_tags": [
+            "salao"
+          ]
+        },
+        {
+          "file": "IMG_7398.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "outro"
+          ]
+        },
+        {
+          "file": "IMG_3251.heic",
+          "folder": "2026/Maio 26",
+          "dish_tags": [
+            "feijoada",
+            "preparo"
+          ]
+        },
+        {
+          "file": "IMG_7515.heic",
+          "folder": "2026/Junho 26",
+          "dish_tags": [
+            "sobremesa"
+          ]
+        }
+      ],
+      "caption_text": "🍽️ Hoje o destaque fica por conta do nosso salmão fresco e rabada, preparado com todo o cuidado para entregar muito sabor em cada detalhe.\nE, claro, o buffet ainda conta com diversas outras opções esperando por você.\n\n📍 Rua Amador Bueno, 771 – Santo Amaro\n\n#restaurantesantoamaro #selfservicesp #comidacaseira #buffetsp #almocoespecial"
+    }
+  ]
+}
