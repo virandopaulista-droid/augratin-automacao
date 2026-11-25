@@ -147,8 +147,8 @@
     {
       "file": "27.jpg",
       "type": "image",
-      "used": true,
-      "used_at": "2026-11-25T21:27:35"
+      "used": false,
+      "used_at": null
     },
     {
       "file": "28.jpg",
@@ -261,8 +261,8 @@
     {
       "file": "40.jpg",
       "type": "image",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-25T21:28:11",
       "dish_tags": [
         "costela_no_bafo"
       ]
